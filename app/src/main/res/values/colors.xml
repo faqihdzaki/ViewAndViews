@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="Hijau">#A4C639</color>
+    <color name="colorAzur">#FFFFCC</color>
+    <color name="bacgrounddonasi">#00FF99</color>
+    <color name="colorPrimaryDark1">#00000F</color>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donasi"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Hijau">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Donasi"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:layout_gravity="center_horizontal"/>
+        </FrameLayout>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Isikan Nama Anda"
+            android:drawableLeft="@drawable/ic_people_black_24dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittext"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint=" Alamat Email"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:background="@drawable/edittext"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Donasi"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+            android:background="@drawable/edittext"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tambah Catatan : "
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:gravity="top"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pembayaran"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAzur"
+            android:background="@drawable/buttonstyle2"/>
+    </LinearLayout>
+
+
+</ScrollView>
